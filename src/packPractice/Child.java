@@ -1,14 +1,5 @@
 package packPractice;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-
 public class Child extends Parent { 
 	Child() { 
 		System.out.println("Bike is created."); 
@@ -21,7 +12,7 @@ Child(String brand)
     //super(); // it calls Vehicle(), the parent class
              // constructor of class Bike
     
-    System.out.println("Bike brand is " + brand);
+    System.out.println("I have made a change in practice project");
    
 }
 
